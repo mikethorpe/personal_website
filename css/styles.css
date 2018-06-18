@@ -131,12 +131,17 @@ header .current-page {
 
 }
 
+/* showcase backgrounds - id dependent, unique to .html page */
 #homeshowcase {
-  background-image: url("../images/lammermuir_2.jpg");
+  background-image: url("../images/lammermuir.jpg");
+}
+
+#codeshowcase {
+  background-image: url("../images/code.jpg");
 }
 
 #climbshowcase {
-
+  background-image: url("../images/mountain.jpg");
 }
 
 #craftshowcase {
@@ -144,8 +149,7 @@ header .current-page {
 }
 
 #contactshowcase {
-  background-image: url("../images/table_tennis.jpeg");
-
+  background-image: url("../images/caterpillar_bivvy.jpg");
 }
 
 
