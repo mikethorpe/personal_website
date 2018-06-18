@@ -2,9 +2,6 @@
 Mike Thorpe 17-06-2018
 */
 
-
-
-
 /*
 global rules--------------------------------------------------------------------
 */
@@ -75,7 +72,6 @@ local rules---------------------------------------------------------------------
 header .branding {
   display: inline-block;
   float: left;
-  border: solid green;
 }
 
 header h1 {
@@ -111,20 +107,22 @@ header li {
 }
 
 
-header a {
-  /* remove all decoration (underlines) from text */
+header nav a {
   text-decoration: none;
   color: white;
 }
 
 /* hover effects for links in header */
-header a:hover {
+header nav a:hover {
   color: #b3754d;
 }
 
+header .current-page {
+  color: #b3754d;
+}
 /* showcase section rules */
 .showcase {
-  background-image: url("../images/lammermuir_2.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -132,6 +130,25 @@ header a:hover {
   min-height: 400px;
 
 }
+
+#homeshowcase {
+  background-image: url("../images/lammermuir_2.jpg");
+}
+
+#climbshowcase {
+
+}
+
+#craftshowcase {
+  background-image: url("../images/fire.jpg");
+}
+
+#contactshowcase {
+  background-image: url("../images/table_tennis.jpeg");
+
+}
+
+
 
 .showcase .container {
   position: relative;
