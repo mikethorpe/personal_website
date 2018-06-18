@@ -1,0 +1,121 @@
+/*
+Mike Thorpe 17-06-2018
+*/
+
+
+
+
+/*
+global rules--------------------------------------------------------------------
+*/
+
+/*
+apply no margin and padding to all elements
+*/
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  font-family: futura, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  /* light grey - makes reading easier on the eyes */
+  background-color: #f4f4f4;
+
+  color: #434447;
+
+
+}
+
+.container {
+
+  /* Width of the container is 80% of the parent */
+  width: 80%;
+  /* prevent content overflowing out of div container */
+  overflow: hidden;
+
+  /* sets margin to be equal on both sides - centres the container in its'
+  parent*/
+  margin: auto;
+
+}
+
+/*
+local rules---------------------------------------------------------------------
+
+/*
+  Center notes:
+  * For block elements - set their margin to auto
+  * For inline and inline block elements, set text-align to center in
+    their parent
+*/
+
+
+/*
+ header rules
+ */
+
+ header {
+
+   background-color: #5DC5D1;
+
+   /*border properties*/
+   border-bottom: solid;
+   border-width: 6px;
+   border-bottom-color: grey;
+
+   padding-top: 10px;
+   /* prevent header shrinking below content height when browser resized */
+   min-height: 80px;
+   overflow: auto;
+ }
+
+header .branding {
+  display: inline-block;
+  float: left;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header .style-mt {
+  font-weight: bold;
+}
+
+header nav {
+  display: inline-block;
+  /*margin: 0px 80px 0 80px; */
+  float: right;
+  margin-top: 14px;
+
+}
+
+
+header ul {
+  text-align: center;
+}
+
+header li {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  font-size: 18px;
+  /*padding: 3px 3px 3px 3px;*/
+
+
+}
+
+
+header a {
+  /* remove all decoration (underlines) from text */
+  text-decoration: none;
+  color: white;
+}
+
+/* hover effects for links in header */
+header a:hover {
+  color: #e06d08;
+}
