@@ -1,0 +1,49 @@
+M Thorpe 20-06-2018
+
+What is this website for (purpose)?
+
+  * Use each page to demonstrate a different style of CSS / HTML...turn it into some
+  sort of portfolio
+
+  * Use it to embed the output of code I have created
+
+  * Use it for blog posts
+
+  * Link to LinkedIn Profile and GitHub
+
+Improvements:
+
+  Style:
+
+    * Colours / alignment and content generally (CSS color palette generator and
+    picker are very useful)
+
+    * Sometimes text does not wrap correctly in the showcase when browser
+    size is very small
+
+    * Test styles display correctly with various screen sizes / devices
+
+  Functionality:
+    * Add HTML search tags
+    * Am I missing any core HTML tags?
+
+  Code quality
+
+    * Implement DRY principle. Options include:
+      - Server Side Script for includes
+      - Javascript
+
+    * Menu bar - use Javascript for DRY and detection of currently selected page
+    for highlight
+
+    * CSS structure could probably be improved in terms of the hierarchy of
+    classes and ids...try to have less if you can!
+
+
+  Hosting:
+
+    * Attempt to host on google cloud platform
+
+  With a framework:
+
+    * Use the CSS and html as a template to dynamically generate your views
