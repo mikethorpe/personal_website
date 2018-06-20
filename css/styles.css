@@ -148,6 +148,19 @@ header .current-page {
   background-image: url("../images/fire.jpg");
 }
 
+#light-red {
+  color: #e45e1b;
+}
+
+#my-orange {
+  color: #e45e1b;
+}
+
+#fire-yellow {
+  color: #e45e1b;
+
+}
+
 #contactshowcase {
   background-image: url("../images/caterpillar_bivvy.jpg");
 }
