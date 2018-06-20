@@ -131,40 +131,6 @@ header .current-page {
 
 }
 
-/* showcase backgrounds - id dependent, unique to .html page */
-#homeshowcase {
-  background-image: url("../images/lammermuir.jpg");
-}
-
-#codeshowcase {
-  background-image: url("../images/code.jpg");
-}
-
-#climbshowcase {
-  background-image: url("../images/mountain.jpg");
-}
-
-#craftshowcase {
-  background-image: url("../images/fire.jpg");
-}
-
-#light-red {
-  color: #e45e1b;
-}
-
-#my-orange {
-  color: #e45e1b;
-}
-
-#fire-yellow {
-  color: #e45e1b;
-
-}
-
-#contactshowcase {
-  background-image: url("../images/caterpillar_bivvy.jpg");
-}
-
 
 
 .showcase .container {
@@ -181,6 +147,40 @@ header .current-page {
   word-spacing: 0.3em;
   letter-spacing: 0.2em;
   opacity: 0.8;
+}
+
+/* showcase backgrounds and properties - id dependent, unique to .html page */
+#homeshowcase {
+  background-image: url("../images/lammermuir.jpg");
+}
+
+#codeshowcase {
+  background-image: url("../images/code.jpg");
+}
+
+#climbshowcase {
+  background-image: url("../images/mountain.jpg");
+}
+
+#craftshowcase {
+  background-image: url("../images/fire.jpg");
+}
+
+#light-my-fire {
+  color: #e45e1b;
+}
+
+#contactshowcase {
+  background-image: url("../images/caterpillar_bivvy.jpg");
+  color: green;
+}
+
+#contactshowcase p {
+  color: #e45e1b;
+}
+
+#contact-tagline {
+  font-size: 23px;
 }
 
 /* main article rules */
