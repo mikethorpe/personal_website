@@ -166,17 +166,24 @@ header .current-page {
   background-image: url("../images/fire.jpg");
 }
 
-#light-my-fire {
-  color: #e45e1b;
+#cook-carve{
+  color: white;
+}
+
+#light-my {
+  color: #ff9900;
+}
+
+#fire {
+  color: red;
 }
 
 #contactshowcase {
   background-image: url("../images/caterpillar_bivvy.jpg");
-  color: green;
 }
 
 #contactshowcase p {
-  color: #e45e1b;
+  color: #ff6600;
 }
 
 #contact-tagline {
