@@ -23,6 +23,8 @@ Improvements:
 
     * Test styles display correctly with various screen sizes / devices
 
+    * Fix footer copyright location when content does not fill the page
+
   Functionality:
     * Add HTML search tags
     * Am I missing any core HTML tags?
