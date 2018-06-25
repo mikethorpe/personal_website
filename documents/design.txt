@@ -49,3 +49,9 @@ Improvements:
   With a framework:
 
     * Use the CSS and html as a template to dynamically generate your views
+
+  UX
+    * Use the same colour text for the heading on the nav bar as for the links
+    (user will know that they can interact with the nav bar because of the
+    header effect - they will know that they can't with the header because
+    of no effect) 
