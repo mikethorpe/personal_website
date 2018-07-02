@@ -18,15 +18,10 @@ Improvements:
     * Colours / alignment and content generally (CSS color palette generator and
     picker are very useful)
 
-    * Sometimes text does not wrap correctly in the showcase when browser
-    size is very small
-
     * Test styles display correctly with various screen sizes / devices
 
-    * Fix footer copyright location when content does not fill the page
-
     * Add glyphicons to blog posts
-    
+
   Functionality:
     * Add HTML search tags
     * Am I missing any core HTML tags?
