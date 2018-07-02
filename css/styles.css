@@ -39,6 +39,11 @@ body {
 
 }
 
+/* Hide scrollbar so as not to effect page width*/
+::-webkit-scrollbar {
+display: none;
+}
+
 /*
 local rules---------------------------------------------------------------------
 
@@ -65,18 +70,20 @@ local rules---------------------------------------------------------------------
 
    padding-top: 10px;
    /* prevent header shrinking below content height when browser resized */
-   min-height: 80px;
+   min-height: 65px;
    overflow: auto;
  }
 
 header .branding {
   display: inline-block;
   float: left;
+
+
 }
 
 header h1 {
   text-align: center;
-  color: #20262c;
+  color: white;
 }
 
 header .style-mt {
@@ -87,7 +94,7 @@ header nav {
   display: inline-block;
   font-weight: 400;
   float: right;
-  margin-top: 14px;
+  margin-top: 10px;
 
 }
 
@@ -174,10 +181,6 @@ header .current-page {
 
 #contactshowcase {
   background-image: url("../images/caterpillar_bivvy.jpg");
-}
-
-#contactshowcase p {
-  color: #ff6600;
 }
 
 #contact-tagline {
