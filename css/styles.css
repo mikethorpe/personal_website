@@ -202,10 +202,39 @@ article p {
 
 }
 
+.post {
+text-align: center;
+}
+
+.post-image {
+  margin: auto;
+  width: 85%;
+  min-width: 150px;
+  height: auto;
+  overflow: hidden;
+}
+
+.post img {
+  width: auto;
+  height: auto;
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.post-content {
+  width: 75%;
+  display: inline;
+  overflow: hidden;
+}
+
 /* footer rules */
 
 footer {
   font-size: 14px;
+  position: relative;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
 }
 
 footer .container {
