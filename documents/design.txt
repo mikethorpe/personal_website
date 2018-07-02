@@ -25,6 +25,8 @@ Improvements:
 
     * Fix footer copyright location when content does not fill the page
 
+    * Add glyphicons to blog posts
+    
   Functionality:
     * Add HTML search tags
     * Am I missing any core HTML tags?
@@ -54,4 +56,4 @@ Improvements:
     * Use the same colour text for the heading on the nav bar as for the links
     (user will know that they can interact with the nav bar because of the
     header effect - they will know that they can't with the header because
-    of no effect) 
+    of no effect)
