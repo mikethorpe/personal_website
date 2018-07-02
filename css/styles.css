@@ -158,26 +158,6 @@ header .current-page {
   background-image: url("../images/code.jpg");
 }
 
-#climbshowcase {
-  background-image: url("../images/mountain.jpg");
-}
-
-#craftshowcase {
-  background-image: url("../images/fire.jpg");
-}
-
-#cook-carve{
-  color: white;
-}
-
-#light-my {
-  color: #ff9900;
-}
-
-#fire {
-  color: red;
-}
-
 #contactshowcase {
   background-image: url("../images/caterpillar_bivvy.jpg");
 }
