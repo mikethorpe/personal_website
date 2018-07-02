@@ -131,15 +131,29 @@ header .current-page {
 
 }
 
-
-
 .showcase .container {
   position: relative;
   top: 50px;
 }
 
+
+
+@media screen and (max-device-width : 375px)
+{
+  .showcase .container .textoverlay p {
+    font-size: 35px;
+
+  }
+}
+
+@media screen and (min-device-width : 376px)
+{
+  .showcase .container .textoverlay p {
+    font-size: 45px;
+  }
+}
+
 .showcase .container .textoverlay {
-  font-size: 45px;
   font-weight: 500;
   color: white;
   text-transform: uppercase;
