@@ -61,12 +61,12 @@ local rules---------------------------------------------------------------------
 
  header {
 
-   background-color: #5B6C7E;
+   background-color: #8d9db6;
 
    /*border properties*/
    border-bottom: solid;
    border-width: 6px;
-   border-bottom-color: #b3754d;
+   border-bottom-color: #667292;
 
    padding-top: 10px;
    /* prevent header shrinking below content height when browser resized */
@@ -83,11 +83,12 @@ header .branding {
 
 header h1 {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 header .style-mt {
   font-weight: bold;
+
 }
 
 header nav {
@@ -116,16 +117,16 @@ header li {
 
 header nav a {
   text-decoration: none;
-  color: white;
+  color: #f1e3dd;
 }
 
 /* hover effects for links in header */
 header nav a:hover {
-  color: #b3754d;
+  color: #bccad6;
 }
 
 header .current-page {
-  color: #b3754d;
+  color: #bccad6;
 }
 /* showcase section rules */
 .showcase {
